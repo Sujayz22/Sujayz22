@@ -1,5 +1,4 @@
-
-<h1> Sujay Arun Panda 👨🏽‍💻 💫</h1>
+<h1>Sujay Arun Panda 👨🏽‍💻 💫 </h1>
 <br /> 
 
                     
@@ -29,15 +28,13 @@
 
 <h2>Languages and Tools</h2> 
 <p align="left">
-<img width="280px"  src="https://skillicons.dev/icons?i=html,css,c#,VB.Net &perline=9"  />
+<img width="280px"  src="https://skillicons.dev/icons?i=html,css,c#,vb.net,&perline=9"  />
 </p>
 <br />
 
-                    
 
-<p><a href="https://github.com/Sujayz22#gh-dark-mode-only" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujayz22&langs_count=6&show_icon=true&layout=compact&theme=nightowl#gh-dark-mode-only" alt="Sujayz22" /></a>
-  <a href="https://github.com/Sujayz22#gh-light-mode-only" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujayz22&langs_count=6&show_icon=true&layout=compact&theme=vue#gh-light-mode-only" alt="Sujayz22" /></a>
-</p>
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sujayz22&layout=compact)](https://github.com/Sujayz22/github-readme-stats)                   
+
 
 <br />
 
@@ -63,8 +60,8 @@
 
 <h2>My Latest Project</h2> 
 <br />
-<p><a href="https://github.com/Sujayz22/SurfShieldVPN-App#gh-dark-mode-only" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sujayz22&repo=SurfShieldVPN-App&theme=nightowl&show_owner=true#gh-dark-mode-only"/></a></p>
-<p><a href="https://github.com/Sujayz22/SurfShieldVPN-App#gh-light-mode-only" target="_blank"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sujayz22&repo=SurfShieldVPN-App&theme=vue&show_owner=true#gh-light-mode-only"/></a></p>
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sujayz22&repo=SurfShieldVPN-App)](https://github.com/Sujayz22/SurfShieldVPN-App)
 <br />
 
 
@@ -76,7 +73,3 @@
 <a href="https://instagram.com/sujay.jpeg" target="_blank"><img align="left" width="30px" style="padding-right:10px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sujay.jpeg" /></a>
 <a href="https://www.linkedin.com/in/sujay-panda-a349a3206/" target="_blank"><img align="left" alt="linkedin" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
 </p>
-
-                
-
-            
