@@ -1,3 +1,4 @@
+<img src="animation.gif" alt="coder">
 <h1>Sujay Arun Panda 👨🏽‍💻 💫 </h1>
 <br /> 
 
