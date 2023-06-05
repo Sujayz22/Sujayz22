@@ -45,13 +45,12 @@
 <br>
 <br />
 
-<p><a href="https://github.com/Sujayz22#gh-dark-mode-only" target="_blank"><img align="center" src="https://streak-stats.demolab.com?user=Sujayz22&theme=nightowl#gh-dark-mode-only" alt="Sujayz122"/></a>
-<a href="https://github.com/Sujayz22#gh-light-mode-only" target="_blank"><img align="center" src="https://streak-stats.demolab.com?user=Sujayz22&theme=vue#gh-light-mode-only" alt="Sujayz2hjhj2"/></a></p>
+<p><a href="https://github.com/Sujayz22#gh-dark-mode-only" target="_blank"><img align="center" src="https://streak-stats.demolab.com?user=Sujayz22&theme=nightowl#gh-dark-mode-only" alt="Sujayz22"/></a>
+<a href="https://github.com/Sujayz22#gh-light-mode-only" target="_blank"><img align="center" src="https://streak-stats.demolab.com?user=Sujayz22&theme=vue#gh-light-mode-only" alt="Sujayz22"/></a></p>
 <br/>
 <br />
 
-<p><a href="https://github.com/Sujayz22#gh-dark-mode-only" target="_blank"><img align="center" src="https://github-readme-activity-graph.cyclic.app/graph?username=Sujayz22&theme=nightowl#gh-dark-mode-only" alt="Sujayz22" /></a>
-<a href="https://github.com/Sujayz22#gh-light-mode-only" target="_blank"><img align="center" src="https://github-readme-activity-graph.cyclic.app/graph?username=Sujayz22&theme=vue#gh-light-mode-only" alt="Sujayz22333" /></a></p>
+
 <br/>
 
 ---
