@@ -7,7 +7,7 @@
 
                     
 
-<p align="left">As an enthusiastic learner, I am deeply passionate about full stack development and have been actively pursuing this field to enhance my skills and knowledge. Currently, I am engaged in a learning phase and exploring various aspects of full stack development. Additionally, I possess hands-on experience in developing Windows form applications using VB .NET and C#, which has honed my programming abilities and strengthened my technical expertise.</p>
+<p align="left">As an enthusiastic learner, I am deeply passionate about front-end development and have been actively pursuing this field to enhance my skills and knowledge. Currently, I am engaged in a learning phase and exploring various aspects of full stack development. Additionally, I possess hands-on experience in developing Windows form applications using VB .NET and C#, which has honed my programming abilities and strengthened my technical expertise.</p>
 <p align="left"> 
   <a href="https://github.com/Sujayz22?tab=repositories&sort=stargazers#gh-light-mode-only">
     <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Sujayz22?color=3ea97d&style=for-the-badge&labelColor=40b682&logo=star#gh-light-mode-only"/></a>
