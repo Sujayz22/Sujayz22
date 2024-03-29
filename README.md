@@ -68,7 +68,5 @@
                     
 
 <h2>Connect With Me</h2> 
-<p align="left">
-<a href="https://instagram.com/sujay.jpeg" target="_blank"><img align="left" width="30px" style="padding-right:10px" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sujay.jpeg" /></a>
 <a href="https://www.linkedin.com/in/sujay-panda-a349a3206/" target="_blank"><img align="left" alt="linkedin" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></a>
 </p>
