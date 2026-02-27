@@ -29,7 +29,7 @@
 
 <h2>Languages and Tools</h2> 
 <p align="left">
-<img width="280px"  src="https://skillicons.dev/icons?i=html,css,cs,dotnet,postgres,visualstudio&perline=9"  />
+<img width="280px"  src="https://skillicons.dev/icons?i=html,css,cs,java,docker,mongod,postgres,visualstudio&perline=9"  />
 </p>
 <br />
 
@@ -61,7 +61,7 @@
 <h2>My Latest Project</h2> 
 <br />
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sujayz22&repo=SurfShieldVPN-App)](https://github.com/Sujayz22/SurfShieldVPN-App)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sujayz22&repo=HabitForge)](https://github.com/Sujayz22/HabitForge)
 <br />
 
 
