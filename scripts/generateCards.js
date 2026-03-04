@@ -36,8 +36,8 @@ const page = await browser.newPage();
 for (const project of projects) {
 
   await page.setViewport({
-    width: 1920,
-    height: 1080
+    width: 1600,
+    height: 900
   });
 
   await page.goto(project.url, { waitUntil: "networkidle2" });
@@ -56,54 +56,53 @@ for (const project of projects) {
   }
 
   const resizedScreenshot = await sharp(screenshot)
-    .resize(1400, 720)
-    .png()
-    .toBuffer();
-
-  const card = await sharp({
-    create: {
-      width: 1400,
-      height: 920,
-      channels: 3,
-      background: "#0d1117"
-    }
-  })
-  .composite([
-    {
-      input: resizedScreenshot,
-      top: 0,
-      left: 0
-    },
-    {
-      input: Buffer.from(`
-        <svg width="1400" height="200">
-          <style>
-            .title {
-              fill: #ffffff;
-              font-size: 64px;
-              font-weight: 700;
-              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            }
-            .stack {
-              fill: #8b949e;
-              font-size: 34px;
-              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            }
-          </style>
-
-          <rect x="0" y="0" width="1400" height="200" fill="#0d1117"/>
-
-          <text x="50" y="90" class="title">${project.name}</text>
-          <text x="50" y="150" class="stack">${project.stack}</text>
-
-        </svg>
-      `),
-      top: 720,
-      left: 0
-    }
-  ])
+  .resize(1600, 900)
   .png()
-  .toFile(project.file);
+  .toBuffer();
+
+await sharp({
+  create: {
+    width: 1600,
+    height: 1050,
+    channels: 3,
+    background: "#0d1117"
+  }
+})
+.composite([
+  {
+    input: resizedScreenshot,
+    top: 0,
+    left: 0
+  },
+  {
+    input: Buffer.from(`
+      <svg width="1600" height="150">
+        <style>
+          .title {
+            fill: #ffffff;
+            font-size: 60px;
+            font-weight: 700;
+            font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial;
+          }
+          .stack {
+            fill: #8b949e;
+            font-size: 34px;
+            font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial;
+          }
+        </style>
+
+        <rect x="0" y="0" width="1600" height="150" fill="#0d1117"/>
+
+        <text x="60" y="70" class="title">${project.name}</text>
+        <text x="60" y="120" class="stack">${project.stack}</text>
+      </svg>
+    `),
+    top: 900,
+    left: 0
+  }
+])
+.png()
+.toFile(project.file);
 
   fs.unlinkSync(screenshot);
 }
