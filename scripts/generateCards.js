@@ -8,6 +8,11 @@ const projects = [
     url: "https://habit-forge.app",
     stack: "React.js • Node • MongoDB • Express • TypeScript • Tailwind CSS • Grafana • Prometheus • Docker • Redis",
     file: "assets/projects/habitforge.png"
+  },{
+    name: "Cosmic Arch Studio",
+    url: "https://www.cosmicarchstudio.in/",
+    stack: "Next.js • tailwindcss • TypeScript • Vercel • framer-motion • radix-ui • strapi",
+    file: "assets/projects/cosmicarchstudio.png"
   }
 ];
 
@@ -59,12 +64,14 @@ const browser = await puppeteer.launch({
         {
           input: Buffer.from(
             `<svg width="1920" height="1080">
-              <style>
-                .title { fill: white; font-size: 150px; font-family: Arial }
-                .stack { fill: #9da5b4; font-size: 100px; font-family: Arial }
-              </style>
-              <text x="40" y="60" class="title">${project.name}</text>
-              <text x="40" y="110" class="stack">${project.stack}</text>
+              <defs>
+                <style>
+                  .title { fill: white; font-size: 72px; font-weight: bold; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+                  .stack { fill: #8b949e; font-size: 36px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+                </style>
+              </defs>
+              <text x="40" y="80" class="title">${project.name}</text>
+              <text x="40" y="140" class="stack">${project.stack}</text>
             </svg>`
           ),
           top: 630,
