@@ -47,6 +47,5 @@ Markdown   2 mins                ███████████████�
 ```
 
 <!--END_SECTION:waka-->
-<p align="center"> <img src="https://stats.habit-forge.app/api/wakatime?username=Sujayz&theme=tokyonight"/> </p>
 <h2 align="center">🔥 Contribution Streak</h2>
 <p align="center"> <img src="https://streak-stats.demolab.com?user=Sujayz22&theme=tokyonight"/> </p>
