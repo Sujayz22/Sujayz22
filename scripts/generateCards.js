@@ -41,8 +41,9 @@ for (const project of projects) {
   });
 
   await page.goto(project.url, { waitUntil: "networkidle2" });
-
-  const screenshot = `tmp-${Date.now()}.png`;
+// wait 10 seconds for animations, charts, fonts etc.
+    await new Promise(resolve => setTimeout(resolve, 10000));
+    const screenshot = `tmp-${Date.now()}.png`;
 
   await page.screenshot({
     path: screenshot,
