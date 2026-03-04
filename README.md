@@ -38,7 +38,7 @@
 <img src="https://raw.githubusercontent.com/Sujayz22/Sujayz22/output/github-snake-dark.svg">
 </p>
 
-<h2 align="center">⏱️ ⏱ Dev Metrics</h2>
+<h2 align="center">⏱️ Dev Metrics</h2>
 <!--START_SECTION:waka-->
 
 ```txt
