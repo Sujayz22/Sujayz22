@@ -60,6 +60,20 @@ for (const project of projects) {
   .png()
   .toBuffer();
 
+const roundedScreenshot = await sharp(resizedScreenshot)
+  .composite([
+    {
+      input: Buffer.from(
+        `<svg width="1600" height="900">
+          <rect x="0" y="0" width="1600" height="900" rx="22" ry="22"/>
+        </svg>`
+      ),
+      blend: "dest-in"
+    }
+  ])
+  .png()
+  .toBuffer();
+
 await sharp({
   create: {
     width: 1600,
@@ -70,31 +84,58 @@ await sharp({
 })
 .composite([
   {
-    input: resizedScreenshot,
+    input: roundedScreenshot,
     top: 0,
     left: 0
   },
+
+  {
+    input: Buffer.from(`
+      <svg width="1600" height="300">
+        <defs>
+          <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+          </linearGradient>
+        </defs>
+
+        <rect x="0" y="0" width="1600" height="300" fill="url(#fade)"/>
+      </svg>
+    `),
+    top: 600,
+    left: 0
+  },
+
   {
     input: Buffer.from(`
       <svg width="1600" height="150">
         <style>
           .title {
-            fill: #ffffff;
-            font-size: 60px;
+            fill: white;
+            font-size: 58px;
             font-weight: 700;
             font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial;
           }
+
           .stack {
             fill: #8b949e;
-            font-size: 34px;
+            font-size: 32px;
+            font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial;
+          }
+
+          .badge {
+            fill: #39d353;
+            font-size: 26px;
+            font-weight: 600;
             font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial;
           }
         </style>
 
-        <rect x="0" y="0" width="1600" height="150" fill="#0d1117"/>
+        <text x="60" y="65" class="title">${project.name}</text>
+        <text x="60" y="115" class="stack">${project.stack}</text>
 
-        <text x="60" y="70" class="title">${project.name}</text>
-        <text x="60" y="120" class="stack">${project.stack}</text>
+        <rect x="1350" y="30" width="170" height="60" rx="14" fill="#161b22"/>
+        <text x="1385" y="70" class="badge">LIVE</text>
       </svg>
     `),
     top: 900,
