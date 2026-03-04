@@ -40,7 +40,12 @@ const browser = await puppeteer.launch({
     await page.screenshot({
       path: screenshot
     });
+        const path = require("path");
 
+        const dir = path.dirname(project.file);
+        if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+        }
     const card = await sharp({
       create: {
         width: 1200,
