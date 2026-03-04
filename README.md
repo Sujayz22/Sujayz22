@@ -39,6 +39,9 @@
 </p>
 
 <h2 align="center">⏱️ Coding Activity (Wakatime)</h2>
+## ⏱️ Weekly Coding Stats
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 <p align="center"> <img src="http://stats.habit-forge.app/api/wakatime?username=Sujayz&theme=tokyonight"/> </p>
 <h2 align="center">🔥 Contribution Streak</h2>
 <p align="center"> <img src="https://streak-stats.demolab.com?user=Sujayz22&theme=tokyonight"/> </p>
