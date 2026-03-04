@@ -41,6 +41,11 @@
 <h2 align="center">⏱️ Coding Activity (Wakatime)</h2>
 ## ⏱️ Weekly Coding Stats
 <!--START_SECTION:waka-->
+
+```txt
+Markdown   2 mins                █████████████████████████   100.00 %
+```
+
 <!--END_SECTION:waka-->
 <p align="center"> <img src="https://stats.habit-forge.app/api/wakatime?username=Sujayz&theme=tokyonight"/> </p>
 <h2 align="center">🔥 Contribution Streak</h2>
