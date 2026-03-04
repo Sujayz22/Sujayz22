@@ -12,7 +12,18 @@ const projects = [
 ];
 
 (async () => {
- const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'], });
+const puppeteer = require("puppeteer");
+
+const browser = await puppeteer.launch({
+  headless: "new",
+  executablePath: "/usr/bin/google-chrome",
+  args: [
+    "--no-sandbox",
+    "--disable-setuid-sandbox",
+    "--disable-dev-shm-usage",
+    "--disable-gpu"
+  ]
+});
   const page = await browser.newPage();
 
   for (const project of projects) {
