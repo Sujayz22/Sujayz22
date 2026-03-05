@@ -13,8 +13,8 @@
 <h2 align="center">⚡ Tech Stack</h2>
 <p align="center"> <img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,nodejs,express,mongodb,postgres,docker,git,linux,vercel&perline=6"/> </p>
 <h2 align="center">🚀 Featured Projects</h2>
-<p align="center"> <a href="https://github.com/Sujayz22/HabitForge"> <img src="https://stats.habit-forge.app/api/pin/?username=Sujayz22&repo=HabitForge&theme=tokyonight"/> </a> 
-<a href="https://github.com/Sujayz22/CosmicArchStudioWeb"> <img src="https://stats.habit-forge.app/api/pin/?username=Sujayz22&repo=CosmicArchStudioWeb&theme=tokyonight"/> </a>
+<p align="center"> <a href="https://github.com/Sujayz22/HabitForge"> <img src="https://stats.habit-forge.app/api/pin/?username=Sujayz22&repo=HabitForge&theme=tokyonight&show_owner=true"/> </a> &nbsp
+<a href="https://github.com/Sujayz22/CosmicArchStudioWeb"> <img src="https://stats.habit-forge.app/api/pin/?username=Sujayz22&repo=CosmicArchStudioWeb&theme=tokyonight&show_owner=true"/></a>
 </p>
 
 <h2 align="center">🚀 Featured Deployments</h2>
