@@ -33,10 +33,6 @@
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sujayz22&theme=tokyo-night"/>
 </p>
-<h2 align="center">🔥 HeatMap</h2>
-<p align="center">
-<img src="https://raw.githubusercontent.com/Sujayz22/Sujayz22/output/github-snake-dark.svg">
-</p>
 
 <h2 align="center">⏱️ Dev Metrics</h2>
 <!--START_SECTION:waka-->
@@ -58,3 +54,8 @@ Other        0 secs                ░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 <h2 align="center">🔥 Contribution Streak</h2>
 <p align="center"> <img src="https://streak-stats.demolab.com?user=Sujayz22&theme=tokyonight"/> </p>
+
+<h2 align="center">🔥 HeatMap</h2>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Sujayz22/Sujayz22/output/github-snake-dark.svg">
+</p>
