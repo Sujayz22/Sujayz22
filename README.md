@@ -1,4 +1,4 @@
-<img src="animation.gif" alt="coder">
+<img src="./assets/animated_studio.gif" alt="coder">
 <h1 align="center">Sujay Arun Panda 👨🏽‍💻  </h1>
 <br /> 
 <p align="center">
