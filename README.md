@@ -38,16 +38,17 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 03 March 2026 - To: 21 March 2026
+From: 03 March 2026 - To: 22 March 2026
 
-Total Time: 8 hrs 1 min
+Total Time: 8 hrs 51 mins
 
-JavaScript   2 hrs 24 mins         ███████▒░░░░░░░░░░░░░░░░░   29.85 %
-TypeScript   2 hrs 8 mins          ██████▓░░░░░░░░░░░░░░░░░░   26.59 %
-Markdown     1 hr 39 mins          █████░░░░░░░░░░░░░░░░░░░░   20.58 %
-Bash         44 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.20 %
-Docker       12 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.60 %
-Git Config   9 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.91 %
+JavaScript   2 hrs 24 mins         ██████▓░░░░░░░░░░░░░░░░░░   27.05 %
+TypeScript   2 hrs 8 mins          ██████░░░░░░░░░░░░░░░░░░░   24.09 %
+Markdown     1 hr 39 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.65 %
+Java         49 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   09.38 %
+Bash         44 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 %
+Docker       12 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.36 %
+Git Config   9 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.73 %
 ```
 
 <!--END_SECTION:waka-->
